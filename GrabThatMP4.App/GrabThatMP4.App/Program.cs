@@ -1,0 +1,12 @@
+﻿Console.WriteLine("TaskTracker v0.1");
+Console.WriteLine("----------------");
+Console.WriteLine("1) Добавить ссылку (пока заглушка)");
+Console.WriteLine("2) Скачать (пока заглушка)");
+Console.WriteLine("3) Показать скачанные файлы (пока заглушка)");
+Console.WriteLine("4) Выбрать качество/формат (пока заглушка)");
+Console.WriteLine("0) Выход");
+Console.WriteLine("----------------");
+Console.Write("Выберите пункт меню: ");
+var input = Console.ReadLine();
+Console.WriteLine($"Вы выбрали: {input}");
+Console.WriteLine("Пока это только каркас. Логика появится в следующих ЛР.");
